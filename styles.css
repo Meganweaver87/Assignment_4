@@ -1,1 +1,89 @@
-/* Write your CSS here! */
+html, body{
+    height: 100%;
+}
+     
+body{
+    margin: 48px;
+    padding: 30px;
+    background: #f2f2f2;
+    font-family: 'Georgia', serif;
+    font-size: 14pt;
+    text-align: center;
+    display: block;
+}
+         
+h1, h2, h3{
+    margin: 20;
+    padding: 20;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+#mainHeading{
+    color: #bd005c;
+}
+     
+p, ol, ul{
+    margin-top: 10;
+}
+ 
+p {
+    line-height: 180%;
+}
+
+p.funParagraph {
+    color: #a5c79d;
+}
+ 
+ol, ul{
+    text-align: center;
+    padding: 10;
+    list-style: none;
+    margin: 20;
+}
+     
+.container{   
+    margin: 0px auto;
+    width: 1200px;
+}
+
+nav {
+    font-size: 14px;
+    font-family: "georgia", serif;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+}
+
+a :hover {
+    background-color: #48dbdb
+}
+
+div {
+    float: center;
+}
+
+div.navitem {
+    width: 120px;
+    border: none; /*solid 1px;*/
+    float: left; /*this sticks them together on their sides*/
+    padding: 10px 0;
+}
+
+
+a:first-child div {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+a:last-child div {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+img {
+    width: 650px;
+    height: 550px;
+    object-fit: cover;
+    border: 6px solid #dedede;
+  }
